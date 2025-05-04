@@ -1,6 +1,6 @@
-# 🔐 DDoS Attack Detection and Analysis in EV Charging Systems using Machine Learning
+# DDoS Attack Detection and Analysis in EV Charging Systems using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on detecting **Distributed Denial of Service (DDoS)** attacks targeting **Electric Vehicle (EV) charging systems** through the application of machine learning techniques. Developed as part of my engineering thesis, the goal is to identify malicious behavior based on performance data from real-world EV charging stations.
 
@@ -44,7 +44,7 @@ These system-level features are crucial for identifying malicious anomalies indi
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 ### Algorithms:
 - ✅ Fully Connected Neural Network (FNN)
@@ -79,7 +79,7 @@ A **meta-model** based on Logistic Regression was also built on top of the base 
 
 ---
 
-## 🧩 Meta-Model (Ensemble Learning)
+## Meta-Model (Ensemble Learning)
 
 In the final step, a **Logistic Regression-based ensemble** was built, combining predictions from all base models. This ensemble approach:
 - Improved **stability** and **robustness**.
