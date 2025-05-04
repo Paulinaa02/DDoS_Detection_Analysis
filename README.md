@@ -8,8 +8,6 @@ The system implements a **binary classification** approach to classify traffic a
 - `0`: Normal connection
 - `1`: Attack attempt
 
-The primary objective is to detect anomalies during the **EV authentication phase**, focusing on system behavior under various attack conditions.
-
 ---
 
 ## 📁 Dataset
