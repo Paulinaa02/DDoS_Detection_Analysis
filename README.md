@@ -12,12 +12,7 @@ The system implements a **binary classification** approach to classify traffic a
 
 ## 📁 Dataset
 
-The dataset used in this project is derived from the **CICEV2023** collection, which includes logs from EV charging stations during both standard operation and simulated DDoS attacks.
-
-The dataset required preprocessing due to the following reasons:
-- Original files had features stored in rows instead of columns.
-- Some data lacked labels.
-- The structure was inconsistent.
+The dataset used in this project is derived from the **CICEV2023** collection, which includes logs from EV charging stations during both standard operation and simulated DDoS attacks. The dataset required preprocessing for various reasons in order to be properly prepared for machine learning.
 
 To streamline usage, I provide two preprocessed `.txt` files for direct use:
 - **`CORRECT_ID.txt`** – Contains combined and labeled data from attacks and normal sessions, using valid EV identifiers but with invalid keys.
@@ -38,7 +33,7 @@ Captured every **0.1 milliseconds**:
 - `page-fault`
 - `task-clock`
 
-These system-level features are crucial for identifying malicious anomalies indicative of DDoS attacks.
+These system-level features, related to CPU operations, are crucial for identifying malicious anomalies indicative of DDoS attacks.
 
 ---
 
